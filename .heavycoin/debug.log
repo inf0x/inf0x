@@ -1,0 +1,681 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Heavycoin version v0.8.3.0-unk (2014-03-08 11:45:16 +0000)
+Using OpenSSL version OpenSSL 1.0.1e 11 Feb 2013
+Startup time: 2014-03-08 18:10:46
+Default data directory /home/infox/.heavycoin
+Using data directory /home/infox/.heavycoin
+Using at most 300 connections (1024 file descriptors available)
+Using 8 threads for script verification
+init message: Verifying wallet...
+dbenv.open LogDir=/home/infox/.heavycoin/database ErrorFile=/home/infox/.heavycoin/db.log
+Bound to [::]:7203
+Bound to 0.0.0.0:7203
+init message: Loading block index...
+Opening LevelDB in /home/infox/.heavycoin/blocks/index
+Opened LevelDB successfully
+Opening LevelDB in /home/infox/.heavycoin/chainstate
+Opened LevelDB successfully
+LoadBlockIndexDB(): last block file = 0
+LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=1, size=40726, heights=0...0, time=2014-03-08...2014-03-08)
+LoadBlockIndexDB(): transaction index disabled
+LoadBlockIndexDB(): hashBestChain=000010fea87dcd9ebd30af1105a16cd438217a1a6d0eff8d589d5d81e7fbcb0d  height=0 date=2014-03-08 10:26:00
+init message: Verifying blocks...
+ block index              81ms
+init message: Loading wallet...
+nFileVersion = 80300
+ wallet                  219ms
+init message: Rescanning...
+Rescanning last 0 blocks (from block 0)...
+ rescan                   23ms
+init message: Loading addresses...
+Loaded 3 addresses from peers.dat  0ms
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+dnsseed thread start
+net thread start
+Loading addresses from DNS seeds (could take a while)
+0 addresses found from DNS seeds
+dnsseed thread exit
+msghand thread start
+opencon thread start
+addcon thread start
+dumpaddr thread start
+init message: Done loading
+trying connection 172.245.221.171:7203 lastseen=359528.4hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=0.0.0.0:0, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=0.0.0.0:0, them=198.52.200.43:7203, peer=198.52.200.43:7203
+trying connection 94.102.53.183:7203 lastseen=359528.4hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=0.0.0.0:0, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 76.10.203.44:7203 lastseen=359528.4hrs
+connected 76.10.203.44:7203
+send version message: version 70001, blocks=0, us=0.0.0.0:0, them=76.10.203.44:7203, peer=76.10.203.44:7203
+socket recv error 104
+disconnecting node 76.10.203.44:7203
+GetMyExternalIP() received [54.85.76.179] 54.85.76.179:0
+GetMyExternalIP() returned 54.85.76.179
+AddLocal(54.85.76.179:7203,4)
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket closed
+disconnecting node 172.245.221.171:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket closed
+disconnecting node 172.245.221.171:7203
+trying connection 172.245.221.171:7203 lastseen=307.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 172.245.221.171:7203 lastseen=307.6hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 172.245.221.171:7203 lastseen=359528.4hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 94.102.53.183:7203 lastseen=359528.4hrs
+connected 94.102.53.183:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket closed
+disconnecting node 94.102.53.183:7203
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 198.52.200.43:7203 lastseen=359528.4hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 76.10.203.44:7203 lastseen=359528.4hrs
+connected 76.10.203.44:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=76.10.203.44:7203, peer=76.10.203.44:7203
+socket recv error 104
+disconnecting node 76.10.203.44:7203
+trying connection 172.245.221.171:7203 lastseen=307.6hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 94.102.53.183:7203 lastseen=237.5hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 172.245.221.171:7203 lastseen=307.6hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 172.245.221.171:7203 lastseen=307.6hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 198.52.200.43:7203 lastseen=236.7hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 172.245.221.171:7203 lastseen=307.6hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 94.102.53.183:7203 lastseen=237.6hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+ThreadRPCServer method=addnode
+trying connection 94.102.53.183:7203 lastseen=237.6hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 94.102.53.183:7203 lastseen=237.6hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 172.245.221.171:7203 lastseen=307.6hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 94.102.53.183:7203 lastseen=237.6hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 172.245.221.171:7203 lastseen=307.6hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket closed
+disconnecting node 172.245.221.171:7203
+trying connection 198.52.200.43:7203 lastseen=236.8hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 198.52.200.43:7203 lastseen=236.8hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 94.102.53.183:7203 lastseen=237.6hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 172.245.221.171:7203 lastseen=307.6hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 198.52.200.43:7203 lastseen=236.8hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 172.245.221.171:7203 lastseen=307.6hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 198.52.200.43:7203 lastseen=236.8hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 94.102.53.183:7203 lastseen=237.6hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 172.245.221.171:7203 lastseen=307.6hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 94.102.53.183:7203 lastseen=237.6hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 172.245.221.171:7203 lastseen=307.6hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket recv error 104
+disconnecting node 172.245.221.171:7203
+trying connection 94.102.53.183:7203 lastseen=237.6hrs
+connected 94.102.53.183:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=94.102.53.183:7203, peer=94.102.53.183:7203
+socket recv error 104
+disconnecting node 94.102.53.183:7203
+trying connection 172.245.221.171:7203 lastseen=307.6hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=0, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+ddddff
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+ThreadRPCServer method=addnode
+trying connection 172.245.221.171:7203 lastseen=359528.5hrs
+connected 172.245.221.171:7203
+send version message: version 70001, blocks=257, us=54.85.76.179:7203, them=172.245.221.171:7203, peer=172.245.221.171:7203
+socket closed
+disconnecting node 172.245.221.171:7203
+trying connection 198.52.200.43:7203 lastseen=359528.5hrs
+connected 198.52.200.43:7203
+send version message: version 70001, blocks=257, us=54.85.76.179:7203, them=198.52.200.43:7203, peer=198.52.200.43:7203
+trying connection 76.10.203.44:7203 lastseen=359528.5hrs
+connected 76.10.203.44:7203
+send version message: version 70001, blocks=257, us=54.85.76.179:7203, them=76.10.203.44:7203, peer=76.10.203.44:7203
+socket recv error 104
+disconnecting node 76.10.203.44:7203
+trying connection 54.184.140.69:7203 lastseen=359528.5hrs
+connected 54.184.140.69:7203
+send version message: version 70001, blocks=257, us=54.85.76.179:7203, them=54.184.140.69:7203, peer=54.184.140.69:7203
+Added time data, samples 3, offset +0 (+0 minutes)
+receive version message: version 70001, blocks=257, us=54.85.76.179:39211, them=54.184.140.69:7203, peer=54.184.140.69:7203
+socket recv error 104
+disconnecting node 198.52.200.43:7203
+trying connection 76.10.203.44:7203 lastseen=359528.5hrs
+connected 76.10.203.44:7203
+send version message: version 70001, blocks=257, us=54.85.76.179:7203, them=76.10.203.44:7203, peer=76.10.203.44:7203
+socket recv error 104
+disconnecting node 76.10.203.44:7203
+trying connection 61.156.57.71:7203 lastseen=359528.5hrs
+connect() failed after select(): Connection refused
+trying connection 172.246.113.106:7203 lastseen=359528.5hrs
+connected 172.246.113.106:7203
+send version message: version 70001, blocks=257, us=54.85.76.179:7203, them=172.246.113.106:7203, peer=172.246.113.106:7203
+socket closed
+disconnecting node 172.246.113.106:7203
+trying connection 117.27.110.138:7203 lastseen=359528.5hrs
+Added 1000 addresses from 54.184.140.69: 1 tried, 942 new
+Added 132 addresses from 54.184.140.69: 1 tried, 1038 new
+trying connection 54.211.49.74:7203 lastseen=6.0hrs
+connected 54.211.49.74:7203
+send version message: version 70001, blocks=257, us=54.85.76.179:7203, them=54.211.49.74:7203, peer=54.211.49.74:7203
+Added time data, samples 4, offset -1 (+0 minutes)
+Moving 54.211.49.74:7203 to tried
+receive version message: version 70001, blocks=257, us=54.85.76.179:35766, them=54.211.49.74:7203, peer=54.211.49.74:7203
+connection timeout
+trying connection 23.20.5.5:7203 lastseen=5.1hrs
+connected 23.20.5.5:7203
+send version message: version 70001, blocks=257, us=54.85.76.179:7203, them=23.20.5.5:7203, peer=23.20.5.5:7203
+Added time data, samples 5, offset +0 (+0 minutes)
+nTimeOffset = +0  (+0 minutes)
+Moving 23.20.5.5:7203 to tried
+receive version message: version 70001, blocks=257, us=54.85.76.179:59558, them=23.20.5.5:7203, peer=23.20.5.5:7203
+trying connection 54.186.44.85:7203 lastseen=359528.5hrs
+trying connection 194.208.185.53:7203 lastseen=4.8hrs
+connection timeout
+connection timeout
+trying connection 125.79.96.236:7203 lastseen=359528.5hrs
+Added 797 addresses from 54.211.49.74: 3 tried, 1722 new
+Added 125 addresses from 54.211.49.74: 3 tried, 1825 new
+trying connection 54.81.233.78:7203 lastseen=4.7hrs
+connected 54.81.233.78:7203
+send version message: version 70001, blocks=257, us=54.85.76.179:7203, them=54.81.233.78:7203, peer=54.81.233.78:7203
+Added time data, samples 6, offset +0 (+0 minutes)
+Moving 54.81.233.78:7203 to tried
+receive version message: version 70001, blocks=257, us=54.85.76.179:52785, them=54.81.233.78:7203, peer=54.81.233.78:7203
+trying connection 138.91.186.235:7203 lastseen=8.1hrs
+Added 704 addresses from 54.81.233.78: 4 tried, 2449 new
+Added 51 addresses from 54.81.233.78: 4 tried, 2483 new
+connection timeout
+trying connection 120.34.124.65:7203 lastseen=359528.5hrs
+connection timeout
+trying connection 82.95.110.212:7203 lastseen=7.9hrs
+connect() failed after select(): No route to host
+trying connection 194.105.132.134:7203 lastseen=6.3hrs
+Added 1 addresses from 54.81.233.78: 4 tried, 2483 new
+connection timeout
+trying connection 117.27.110.246:7203 lastseen=359528.5hrs
+connection timeout
+trying connection 93.176.208.45:7203 lastseen=5.0hrs
+Added 537 addresses from 23.20.5.5: 4 tried, 2953 new
+Added 97 addresses from 23.20.5.5: 4 tried, 3014 new
+connection timeout
+trying connection 183.151.67.62:7203 lastseen=359528.5hrs
+connection timeout
+trying connection 172.168.18.103:7203 lastseen=4.7hrs
+connection timeout
+Added 1 addresses from 54.81.233.78: 4 tried, 3015 new
+trying connection 54.80.203.60:7203 lastseen=359528.5hrs
+connected 54.80.203.60:7203
+send version message: version 70001, blocks=257, us=54.85.76.179:7203, them=54.80.203.60:7203, peer=54.80.203.60:7203
+socket recv error 104
+disconnecting node 54.80.203.60:7203
+Added 1 addresses from 54.211.49.74: 4 tried, 3016 new
+trying connection 222.188.192.118:7203 lastseen=359528.5hrs
+connect() failed after select(): Connection refused
+connection timeout
+trying connection 211.109.48.18:7203 lastseen=359528.5hrs
+connect() failed after select(): Connection refused
+trying connection 168.168.1.152:7203 lastseen=4.6hrs
+trying connection 81.169.224.192:7203 lastseen=359528.5hrs
+connect() failed after select(): Connection refused
+connection timeout
+trying connection 86.38.181.225:7203 lastseen=6.9hrs
+connect() failed after select(): No route to host
+trying connection 78.51.49.102:7203 lastseen=6.3hrs
+connection timeout
+trying connection 78.157.17.240:7203 lastseen=9.2hrs
+Added 1 addresses from 54.211.49.74: 4 tried, 3017 new
+connection timeout
+trying connection 54.80.164.80:7203 lastseen=7.6hrs
+connection timeout
+trying connection 25.143.235.74:7203 lastseen=4.1hrs
+connection timeout
+trying connection 213.222.229.201:7203 lastseen=8.7hrs
+keypool added key 102, size=101
+keypool reserve 2
+CreateNewBlock(): total size 1000
+Added 1 addresses from 54.211.49.74: 4 tried, 3018 new
+Flushing wallet.dat
+Flushed wallet.dat 22ms
+connection timeout
+trying connection 168.63.236.247:7203 lastseen=6.5hrs
+connection timeout
+trying connection 54.203.206.237:7203 lastseen=5.1hrs
+connected 54.203.206.237:7203
+send version message: version 70001, blocks=257, us=54.85.76.179:7203, them=54.203.206.237:7203, peer=54.203.206.237:7203
+Added time data, samples 7, offset -1 (+0 minutes)
+nTimeOffset = +0  (+0 minutes)
+Moving 54.203.206.237:7203 to tried
+receive version message: version 70001, blocks=257, us=54.85.76.179:58588, them=54.203.206.237:7203, peer=54.203.206.237:7203
+trying connection 61.144.246.129:7203 lastseen=4.1hrs
+Added 469 addresses from 54.203.206.237: 5 tried, 3439 new
+Added 83 addresses from 54.203.206.237: 5 tried, 3509 new
+connection timeout
+trying connection 5.83.18.254:7203 lastseen=4.5hrs
+connection timeout
+trying connection 193.98.119.85:7203 lastseen=4.7hrs
+connection timeout
+trying connection 93.3.50.24:7203 lastseen=6.8hrs
+Added 1 addresses from 54.203.206.237: 5 tried, 3510 new
+connection timeout
+trying connection 95.46.194.248:7203 lastseen=4.4hrs
+msghand thread interrupt
+keypool return 2
+Flush(false)
+DBFlush(false) ended               0ms
+StopNode()
+dumpaddr thread stop
+addcon thread interrupt
+net thread interrupt
+Flushed 3515 addresses to peers.dat  129ms
+Committing 0 changed transactions to coin database...
+Flush(true)
+wallet.dat refcount=0
+wallet.dat checkpoint
+wallet.dat detach
+wallet.dat closed
+DBFlush(true) ended               6ms
